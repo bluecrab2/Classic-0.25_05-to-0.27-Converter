@@ -14,9 +14,13 @@ This program only edits the serialVersionUID of Player$1 in the file from -51418
 identify the classes it is reading in and has no effect in game.
 
 ## Usage
-The main method of this program can be ran with zero or two parameters. With no parameters, the program defaults to read from level.dat and write to 
-output.dat in the first.
+Ensure Java is downloaded in order to use program.
 
-If two parameters are given, the first should be the path to the input file and
-the second should be the path to the output file. The two paths cannot be the same. If zero parameters are given, the program willdefault to reading 
-level.dat and writing to output.dat in the current directory.
+### JAR File
+The JAR File can be used by putting it inside the same folder as the level file with the name "level.dat". The program will output the new, corrected file to "output.dat" in that same folder. The "output.dat" file should be renamed to "level.dat" in order to be played by your launcher.
+
+### Command Line
+The main method of this program can be ran with zero or two parameters. With no parameters, the program defaults to read from level.dat and write to 
+output.dat (`java -jar Classic25to27Converter.jar`).
+
+If two parameters are given, the first should be the path to the input file and the second should be the path to the output file. The two paths cannot be the same. (`java -jar Classic25to27Converter.jar My025Level.dat Corrected027Level.dat`)
