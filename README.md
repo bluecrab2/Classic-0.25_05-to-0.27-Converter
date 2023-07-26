@@ -16,10 +16,13 @@ identify the classes it is reading in and has no effect in game.
 ## Usage
 Ensure Java is downloaded in order to use program.
 
-### JAR File
-The JAR File can be used by putting it inside the same folder as the level file with the name "level.dat". The program will output the new, corrected file to "output.dat" in that same folder. The "output.dat" file should be renamed to "level.dat" in order to be played by your launcher.
+### Running JAR File
+The JAR file (download on the Releases tab) can be used to simply correct the file.
+1. Put JAR file in the same folder as the level file with the name "level.dat"
+2. Double-click the JAR file to run it and the program will output the new, corrected file to "output.dat" in that same folder
+3. Move the "output.dat" file in your instance's directory and rename back to "level.dat" in order to be played by your launcher
 
-### Command Line
+### JAR Command Line
 The main method of this program can be ran with zero or two parameters. With no parameters, the program defaults to read from level.dat and write to 
 output.dat (`java -jar Classic25to27Converter.jar`).
 
