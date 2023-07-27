@@ -11,10 +11,10 @@ archived versions this program works to fix.
 
 ## The Solution
 This program only edits the serialVersionUID of Player$1 in the file from -5141891085410515807 to 0. This value is only used by Java's deserializer to 
-identify the classes it is reading in and has no effect in game.
+identify the classes it is reading in and has no effect in game. Important note: if you spawn a sign in Classic 0.25_05 SURVIVAL TEST it won't be able to update to any future versions, this tool does not fix that issue given its separate and avoidable.
 
 ## Usage
-Ensure Java is downloaded in order to use program.
+Ensure Java 8 or later is installed in order to use this program.
 
 ### Running JAR File
 The JAR file (download on the Releases tab) can be used to simply correct the file.
