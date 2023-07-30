@@ -14,7 +14,7 @@ This program only edits the serialVersionUID of Player$1 in the file from -51418
 identify the classes it is reading in and has no effect in game. Important note: if you spawn a sign in Classic 0.25_05 SURVIVAL TEST it won't be able to update to any future versions, this tool does not fix that issue given its separate and avoidable.
 
 ## Usage
-Ensure Java 8 or later is installed in order to use this program. You can either run the JAR file by double-clicking it or use the command line.
+Ensure Java 8 or later is installed in order to use this program. You can either run the JAR file by double-clicking it or using the command line.
 
 ### Running JAR File
 The JAR file (download on the Releases tab) can be used to simply correct the file.
